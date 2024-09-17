@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#myprojects">My Projects</a></li>
+                <li><a href="#contacme">Contact Me</a></li>
+
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <!-- The title -->
+        <div>  
+            <h1>Web Developer & Designer</h1>                      
+            <img src="https://yaraelectronics.com/user/img/Logo/logo.svg" alt="Website Logo" style="width:300px; height:50px;" >
+        </div>        
+       <!-- About me section -->
+        <section id="aboutme" >
+            <h3>About me</h3>
+            <p>Hello! I'm a passionate web developer with experience in building dynamic and responsive websites. I specialize in front-end development using HTML, CSS, and JavaScript, but I also enjoy working with back-end technologies like Node.js and databases like MongoDB. I love coding because it allows me to turn creative ideas into functional applications. When I'm not coding, I enjoy learning about the latest tech trends and enhancing my skills. Let's create something amazing together!</p>
+        </section>
+        <hr>
+        <!-- Projects table section -->
+        <section id="myprojects">
+            <h3>My Previous projects</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>technologies Used</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>A simple personal portfolio to showcase my work.</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>E-commerce Store</td>
+                        <td>An online store with a shopping cart and checkout system.</td>
+                        <td>React, Node.js, MongoDB</td>
+                    </tr>
+                    <tr>
+                        <td>Weather App</td>
+                        <td>A web app that shows real-time weather data for any location.</td>
+                        <td>HTML, CSS, JavaScript, API</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <hr>
+        <!-- Contact form section -->
+        <section id="contacme">
+            <h3>Contact Me</h3>
+            <Form method="post">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" placeholder="Enter your first name" required>
+                <br><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="Enter your last name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+                <br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                <br><br>
+                <label for="inquiry">What is your inquiry about?</label>
+                <select id="inquiry">
+                    <option>New project</option>
+                    <option>Collaboration</option>
+                    <option>Other</option>
+                </select>
+                <br><br>
+                <span>Preferred Contact Method:</span>
+                <input type="radio" id="em" name="ContactMethod">
+                <label for="em">Email</label>
+                <input type="radio" id="ph" name="ContactMethod">
+                <label for="ph">Phone</label>
+                <br><br>
+                <label for="Message">Message:</label>
+                <br>
+                <textarea  id="Message" rows="4" cols="40" placeholder="Enter your Message here" required></textarea>
+                <br><br>
+                <input type="checkbox" required>
+                <label>I agree to the terms and conditions</label>
+                <br><br>
+                <input type="submit" value="Send Message" >
+            </Form>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <p>&copy;2024</p>
+    </footer>
+</body>
+</html>

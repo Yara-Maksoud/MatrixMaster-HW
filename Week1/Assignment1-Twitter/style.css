@@ -6,10 +6,7 @@
 
 body{
     background-color: #999;
-    font-family:'sans-serif';
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family:'sans-serif;
 }
 
 .main{

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem;
+    width: 1000px;
+
+}
+
+/* Header styling */
+header ul {
+    margin: 1rem 2rem;
+}
+
+header p {
+    font-size: large;
+}
+
+/* main section styling */
+.main-section {
+    display: flex;
+    flex-direction: row;
+}
+
+/* search section styling */
+.search-place {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+.search-place h2 {
+    margin-bottom: 1rem;
+}
+
+.search-place div {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 1rem 0;
+}
+
+.search-place div #guests {
+    max-width: 50px;
+    border-radius: 4px;
+}
+
+.search-place a span {
+    font-style: italic;
+}
+
+/* The places options section */
+.options {
+    margin-top: 2rem;
+
+}
+
+.options .review {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.places {
+    margin-top: 1rem;
+
+}
+
+.places h4 {
+    color: #E9448E;
+}
+
+.places div {
+    margin: 1rem;
+}
+
+/* News section styling */
+.news-section {
+    display: flex;
+    align-items: center;
+}
+
+.news-section p {
+    display: inline;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3F3E38;
+    text-decoration: underline;
+    text-decoration-color: #DDD;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 2rem;
+}
+
+footer ul {
+    margin: 1rem;
+    font-weight: bold;
+}

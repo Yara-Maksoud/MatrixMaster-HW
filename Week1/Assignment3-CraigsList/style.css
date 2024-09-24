@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    width: 1000px;
+    background-color: #EEE;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    padding: 0 2rem 2rem 2rem;
+}
+
+/*The common style for all ul  */
+ul {
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+
+ul li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styling the first h1 in the header */
+header h1:first-child {
+    display: inline-block;
+    width: 30%;
+    padding-left: 3%;
+
+}
+
+/* Styling the second h1 in the header */
+header h1:nth-child(2) {
+    display: inline-block;
+    background-color: #DDD;
+    width: 40%;
+    text-align: center;
+}
+
+/* Styling the select and the button */
+header div {
+    display: inline-block;
+    width: 23%;
+    text-align: right;
+    vertical-align: inherit;
+}
+
+header div button {
+    display: inline;
+}
+
+main {
+    display: inline-block;
+    width: 100%;
+}
+
+/*Styling the aside section */
+aside {
+    background-color: #DDD;
+    display: inline-block;
+    width: 22%;
+    height: 600px;
+    margin: 0 2rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* Styling first section in the aside */
+
+aside .first-list ul li {
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #EEE;
+    margin-left: 10px;
+}
+
+/* Styling the second second in the aside */
+.search {
+    background-color: #CCC;
+    margin: 1rem;
+    text-align: left;
+    padding: 10px;
+}
+
+.search h2 {
+    background-color: #DDD;
+    display: inline;
+}
+
+.search input {
+    max-width: 150px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.search select,
+button {
+    display: block;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+/* Styling second list section in the aside */
+.second-list li {
+    margin-bottom: 1rem;
+}
+
+.second-list p {
+    font-size: 18px;
+}
+
+.second-list li:last-child a {
+    background-color: #EEE;
+}
+
+/* Styling the article and article section */
+article {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+article section {
+    margin-right: 1rem;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+article h3 {
+    background-color: #DDD;
+    font-weight: bold;
+}
+
+article ul li {
+    background-color: #FFF;
+    margin-bottom: 2px;
+}
+
+article ul li a {
+    background-color: #FFF;
+}
+
+.article-link {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}

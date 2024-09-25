@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+/* set the same color for all h1 and a in the page */
+h1 {
+    color: #3699CD;
+}
+
+a {
+    color: #398AB9;
+}
+
+/* Set the color and the font size for all h4 and paragraph*/
+h4,
+p {
+    color: #6B666C;
+    font-size: 18px;
+
+}
+
+/* styling all the hyperlink and the unordered list element */
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+li:not(:last-child) {
+    border-right: 1px solid #424242;
+}
+
+ul li:hover {
+    font-weight: bold;
+}
+
+/* Styling the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+/* change the logo size */
+header img {
+    width: 200px;
+}
+
+/*Styling the whole main page */
+main {
+    width: 100%;
+    background-color: #E6E6E6;
+    border-top: 3px solid #27a1e2;
+    border-bottom: 3px solid #CCCCCC;
+}
+
+/* Styling the section inside the main page */
+section {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 1%;
+    border: 1px solid #CDCDCD;
+    background-color: white;
+}
+
+/* Styling the section of the introduction and sign in */
+.join-section {
+    display: flex;
+    padding: 2% 2% 4% 2%;
+    border-bottom: 1px solid #CDCDCD;
+    width: 100%;
+}
+
+/* make the width of the introduction section 60% */
+.intro {
+    width: 60%;
+}
+
+/* styling the content of the introduction section */
+.intro-content {
+    display: flex;
+    align-items: center;
+}
+
+/* set the icon size of the introduction */
+.intro-content img {
+    width: 100px;
+}
+
+/* make the width of the sign in form 40% */
+.sign-form {
+    border: 1px solid #CDCDCD;
+    width: 40%;
+    border-radius: 8px;
+}
+
+/* Design the form title */
+.sign-form h3 {
+    color: white;
+    background-image: linear-gradient(to top, #1575a8, #76c5f0);
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Adding padding and margin to the form */
+form {
+    padding-top: 4%;
+    margin-bottom: 2%;
+}
+
+/* Styling the text end of the form */
+.sign-form p {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+/* styling the form labels */
+.sign-form label {
+    display: inline-block;
+    width: 30%;
+    min-width: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #424242;
+    text-align: end;
+}
+
+/* styling the form inputs */
+.input {
+    width: 50%;
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+/* Design the continue button  */
+.submit {
+    color: white;
+    background-image: linear-gradient(#74b315, #a8df56, #74b315);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+
+/* Styling the search section */
+.search-section {
+    margin: 2rem;
+    text-align: center;
+}
+
+.search-section label {
+    font-size: 24px;
+    color: #6B666C;
+    font-weight: bold;
+}
+
+.search-section input {
+    height: 25px;
+}
+
+.search-section button {
+    height: 30px;
+    width: 50px;
+}
+
+.search-section p {
+    margin-top: 20px;
+}
+
+/* Styling the footer */
+footer {
+    padding: 2rem;
+    background-color: #F7F7F7;
+}
+
+/* display the title and the nav menu in the same line */
+.footer-nav h4,
+ul {
+    display: inline-block;
+}
+
+/* Add margin to the nav title */
+.footer-nav h4 {
+    margin-right: 10px;
+    width: 100px;
+}
+
+/* Change the size of the hyperlink */
+.footer-nav a {
+    font-size: 18px;
+}
+
+/* style the paragraph in the footer */
+.footer-nav p {
+    display: inline;
+    font-size: 14px;
+}
+
+/* Change the size of the hyperlink for copyright section*/
+.copyright a {
+    font-size: 14px;
+}
+
+/* Add margin between the footer section */
+.footer-nav {
+    margin-bottom: 10px;
+}

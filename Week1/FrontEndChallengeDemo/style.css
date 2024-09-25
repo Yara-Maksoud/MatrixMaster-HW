@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 60%;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
+    margin: 0 auto;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.header ul li:hover {
+    font-weight: bold;
+}
+
+.header img {
+    width: 100px;
+}
+
+.vl {
+    border-left: 2px solid blue;
+    height: 14px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* main styling */
+main {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* aside styling  */
+
+aside {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+article {
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+aside h4 {
+    background-color: #CCC;
+    padding: 4%;
+}
+
+.welcome-section ul {
+    margin: 1rem 0 0 1rem;
+}
+
+aside ul li {
+    padding-left: 8px;
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+.welcome-section ul li::marker {
+    content: "▶";
+    color: #4A83FD;
+    font-size: 14px;
+}
+
+aside button {
+    background-color: #CCC;
+    margin: 5px 10px;
+    border-radius: 4px;
+    width: 60px;
+    height: 20px;
+}
+
+.welcome-section,
+.news-section {
+    background-color: #EEE;
+    margin-top: 10px;
+    padding-bottom: 4%;
+}
+
+.news-section {
+    margin-top: 12%;
+    position: relative;
+    height: 200px;
+}
+
+.news-head {
+    background-color: #CCC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+
+}
+
+.news-section ul li {
+    list-style: none;
+}
+
+.news-section small {
+    position: absolute;
+    right: 0;
+}
+
+/* article styling */
+section h1 {
+    color: #0C3D6E;
+}
+
+.send-request {
+    display: flex;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.transection,
+.button {
+    width: 50%;
+    align-content: center;
+}
+
+.send-request a,
+.free-account a {
+    font-weight: bold;
+}
+
+.transection p {
+    margin-bottom: 4%;
+}
+
+.send-request button {
+    background-image: linear-gradient(to top, #316192 0%, #2980b9 100%);
+    border-radius: 100%;
+    height: 90px;
+    width: 250px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+}
+
+/* middle section styling */
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 5%;
+}
+
+.middle-section p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.middle-section a {
+    font-weight: bold;
+}
+
+.free-account {
+    background-color: #FFFFCC;
+    border: 1px solid #DCDC74;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+}
+
+.last-section h3 {
+    background-color: #EEE;
+    margin: 4% 0;
+    padding: 2% 1%;
+}
+
+.spotlight {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    gap: 10px;
+    margin-bottom: 3%;
+}
+
+.spotlight img {
+    width: 38px;
+    height: 38px;
+}
+
+.spotlight h4 {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .nav a {
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+footer .nav a:not(:last-child) {
+    border-right: 1px solid black;
+
+}
+
+.copyright a {
+    display: block;
+}
+
+.copyright {
+    margin-top: 3%;
+}
+
+footer .images {
+    margin: 2% 0;
+}
+
+/* Tabs section design */
+.tab-container {
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.tab-label {
+    padding: 10px 20px;
+    margin: 0 8px;
+    cursor: pointer;
+    background-color: #023467;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: -5px;
+    z-index: 0;
+    transition: background-color 0.3s;
+
+}
+
+input[type="radio"]:checked+.tab-label {
+    background-color: #336699;
+    z-index: 2;
+}
+
+hr {
+    height: 25px;
+    width: 100%;
+    background-color: #336699;
+    border-top: 1px solid black;
+    margin-top: -5px;
+    position: relative;
+    z-index: 1;
+}

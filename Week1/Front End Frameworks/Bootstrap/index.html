@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal Portfolio of a Web Developer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <a class="navbar-brand" href="#">
+        <img src="https://yaraelectronics.com/user/img/Logo/logo.svg" alt="Bootstrap" width="90" height="24">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About Me Section -->
+  <section class="container mt-5">
+    <h2>About Me</h2>
+    <p class="lead">Hello! I'm a passionate web developer with experience in building dynamic and responsive websites. I specialize in front-end development using HTML, CSS, and JavaScript, but I also enjoy working with back-end technologies like Node.js and databases like MongoDB. Let's create something amazing together!</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="container mt-5">
+    <h2>My Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="card">
+            <img src="portfolio.png" class="card-img-top" alt="portfolio image">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">A personal portfolio to showcase my work.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="card">
+            <img src="E-commerce-store.png" class="card-img-top" alt="E-commerce-store image">
+          <div class="card-body">
+            <h5 class="card-title">E-commerce Store</h5>
+            <p class="card-text">An online store with a shopping cart and checkout system.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="card">
+            <img src="weather-app.png" class="card-img-top" alt="weather-app image">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">A web app that shows real-time weather data for any location.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="container mt-5">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+      </div>
+      
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email">
+      </div>
+
+      
+      <div class="form-group">
+        <label for="inquiry">What is your inquiry about?</label>
+        <select class="form-control" id="inquiry" name="inquiry">
+          <option value="project">New Project</option>
+          <option value="collaboration">Collaboration</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <label>Preferred Contact Method:</label><br>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="emailContact" name="contactMethod" value="email">
+        <label class="form-check-label" for="emailContact">Email</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="phoneContact" name="contactMethod" value="phone">
+        <label class="form-check-label" for="phoneContact">Phone</label>
+      </div>
+      
+      <div class="form-check mt-3">
+        <input class="form-check-input" type="checkbox" id="agreement" name="agreement">
+        <label class="form-check-label" for="agreement">I agree to the terms and conditions</label>
+      </div>
+      
+      <button type="submit" class="btn btn-success mt-3">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2024 My Portfolio</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
